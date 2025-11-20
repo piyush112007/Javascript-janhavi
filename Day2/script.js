@@ -70,3 +70,31 @@
 //     userinput = parseInt(prompt("your gussed number is incorrect"));
 //   }
 // }
+
+//String
+// let str = "   PiyushAndJanhavi   ";
+// let length = str.length; //Reurtn INT
+// console.log(length);
+
+// console.log(str[2]);
+// let str1 = str.toUpperCase();
+// let str2 = str.toLowerCase();
+// let str3 = str.trim();
+
+// console.log(str1, "\n", str2, "\n", str3);
+let str = prompt("Enter your string");
+let count = 0;
+for (let i = 0; i < str.length; i++) {
+  let str1 = str.toLowerCase();
+  if (
+    str1[i] == "a" ||
+    str1[i] == "e" ||
+    str1[i] == "i" ||
+    str1[i] == "o" ||
+    str1[i] == "u"
+  ) {
+    count++;
+    console.log(`${str[i]} found at ${i}`);
+  }
+}
+console.log(count);
