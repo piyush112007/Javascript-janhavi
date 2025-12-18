@@ -1,0 +1,19 @@
+body{
+    background-color: ;
+}
+#EnterBtn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  border: none;
+  background: #6c5ce7;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  transform: scale(1);
+}
+#EnterBtn:hover{
+     box-shadow: 0 0 15px rgba(108, 92, 231, 0.8),
+              0 0 30px rgba(108, 92, 231, 0.6);
+  transform: scale(1.05) translateY(-2px);      
+}
